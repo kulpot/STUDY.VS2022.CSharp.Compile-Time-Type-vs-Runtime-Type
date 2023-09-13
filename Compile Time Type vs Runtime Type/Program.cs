@@ -12,7 +12,7 @@ class MainClass
     static void Main()
     {
         var randy = new Random();
-        bool randomBool = randy.Next() % 2 == 0;
+        bool randomBool = randy.Next() % 2 == 0; // for RNG between two subject
         Animal a = randomBool ? (Animal)new Dog() : (Animal)new Cat();
         //Animal a = new Dog();
         //Animal a = new Cat();
